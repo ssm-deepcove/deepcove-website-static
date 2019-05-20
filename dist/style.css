@@ -1,0 +1,11 @@
+body {
+    background-image: url('../dist/img/background.jpg');
+    background-repeat: none;
+    background-attachment: fixed;
+    background-size:  cover;
+}
+
+.container{
+    background-color: rgba(254, 254, 254, 0.4);
+    color: black;
+}
