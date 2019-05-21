@@ -1,0 +1,32 @@
+body {
+    background-image: url('../img/background.jpg');
+    background-repeat: none;
+    background-attachment: fixed;
+    background-size:  cover;
+}
+
+.content-container{
+    background-color: rgba(254, 254, 254, 0.4);
+    color: black;
+}
+
+.heading-text{
+    color: #234C67;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.row{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.col-text{
+    font-size: 13px;
+}
+
+.btn-form{
+    background-color: #056624;
+    color: white;
+}
