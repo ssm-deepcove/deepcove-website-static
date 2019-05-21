@@ -17,11 +17,6 @@ body {
     padding-bottom: 20px;
 }
 
-.row{
-    text-align: center;
-    padding-bottom: 20px;
-}
-
 .col-text{
     font-size: 13px;
 }
@@ -29,4 +24,9 @@ body {
 .btn-form{
     background-color: #056624;
     color: white;
+}
+
+.form-group label.required::after {
+    content: "*";
+    color:red;
 }
