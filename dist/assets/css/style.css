@@ -9,19 +9,30 @@ body {
     background-color: rgba(254, 254, 254, 0.4);
     color: black;
 }
+.content-card{
+    background-color: transparent;
+    color: black;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
 
 .heading-text{
     color: #234C67;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
+}   
+
+.paragraph-text{
+    color:black;
+    font-size: 14px;
 }
 
 .col-text{
     font-size: 13px;
 }
 
-.btn-form{
+.btn-dc{
     background-color: #056624;
     color: white;
 }
