@@ -20,7 +20,7 @@
 
 <body>
     <!-- Content -->
-    <div class="container content-container">
+    <div class="container content-container" style="padding: 0px;">
         <!-- Nav Bar -->
         <nav class="navbar navbar-light navbar-expand-md navigation-clean">
             <div class="container"><a class="navbar-brand" href="/index.html"><img width="150"
@@ -29,15 +29,19 @@
                         class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navcol-1">
                     <ul class="nav navbar-nav ml-auto">
-                        <li class="nav-item" role="presentation">
-                            <a class="nav-link active" href="/wanganella.html">Wanganella Apartments</a>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <a class="nav-link" href="/wilmot.html">Wilmot Lodge</a>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <a class="nav-link" href="/hostel.html">Hostel</a>
-                        </li>
+                        <li class="dropdown nav-item"><a class="dropdown-toggle nav-link" data-toggle="dropdown"
+                                aria-expanded="false" href="#">Accommodation </a>
+                            <div class="dropdown-menu" role="menu">
+                                <a class="dropdown-item" role="presentation" href="/hostel.html">
+                                    Main Hostel
+                                </a>
+                                <a class="dropdown-item" role="presentation" href="/wanganella.html">
+                                    Wanganella Apartments
+                                </a>
+                                <a class="dropdown-item" role="presentation" href="/wilmot.html">
+                                    Wilmot Lodge
+                                </a>
+                            </div>
                         <li class="dropdown nav-item"><a class="dropdown-toggle nav-link" data-toggle="dropdown"
                                 aria-expanded="false" href="#">Explore </a>
                             <div class="dropdown-menu" role="menu">
@@ -66,12 +70,12 @@
         <!-- Main Content -->
         <img src="/dist/assets/img/bush-walks.jpg" width="100%">
 
-        <div class="container">
-            <h3 class="heading-text">Bush Walks at Deep Cove</h3>
+        <div class="container py-5">
+            <h3>Bush Walks at Deep Cove</h3>
             <div class="row">
-                <div class="col-lg-8 offset-2">
-                    <h5 class="heading-text">Easy and challenging Doubtful Sound Walks</h5>
-                    <p class="paragraph-text">
+                <div class="col-12">
+                    <h5>Easy and challenging Doubtful Sound Walks</h5>
+                    <p>
                         The hostel offers three walks that cater to the needs of most visitors. One of these include the
                         Hanging Valley Track which is a challenge for school students, while the second gives access to
                         the
@@ -84,9 +88,9 @@
             </div>
             <div class="row">
                 <div class="col-md-6">
-                    <h5 class="heading-text">Brasell Point</h5>
+                    <h5>Brasell Point</h5>
                     <img src="/dist/assets/img/walks/brasell.jpg" width="100%">
-                    <p class="paragraph-text">
+                    <p>
                         An easy 20 minutes nature walk, starting at the eastern end of the Hostel and finishing on the
                         Wilmot Pass Road, just south of the hostel. A natural history questionnaire is available at the
                         Hostel for school groups. This track is a useful starting point to a camp, as it provides an
@@ -94,9 +98,9 @@
                     </p>
                 </div>
                 <div class="col-md-6">
-                    <h5 class="heading-text">Helena Falls Track</h5>
+                    <h5>Helena Falls Track</h5>
                     <img src="/dist/assets/img/walks/helena.jpg" width="100%">
-                    <p class="paragraph-text">
+                    <p>
                         This track now starts at the swing bridge on the road to the tunnel portal. From the hostel walk
                         over the hill and turn left to cross over the Lyvia River. The start of the track is on the left
                         about 200 meters from the Lyvia bridge. The new swing bridge was built at a cost of $120,000
@@ -114,9 +118,9 @@
                     </p>
                 </div>
                 <div class="col-md-6">
-                    <h5 class="heading-text">Doubtful Sound Track</h5>
+                    <h5>Doubtful Sound Track</h5>
                     <img src="/dist/assets/img/walks/doubtful.jpg" width="100%">
-                    <p class="paragraph-text">
+                    <p>
                         This track is the remains of the original Doubtful Sound walking track, used as access to
                         Doubtful Sound before the Wilmot Pass road was built.<br><br>
 
@@ -133,9 +137,9 @@
                     </p>
                 </div>
                 <div class="col-md-6">
-                    <h5 class="heading-text">Hanging Valley</h5>
+                    <h5>Hanging Valley</h5>
                     <img src="/dist/assets/img/walks/hanging.jpg" width="100%">
-                    <p class="paragraph-text">
+                    <p>
                         This is a steep and sometimes muddy track, but it has worthwhile views of Deep Cove. The track
                         starts behind the Hostel Managers house, across the road from the Hostel. It follows up the true
                         right of the Wanganella Stream to an open area of smooth rock. The track proceeds on up the
@@ -151,10 +155,11 @@
                 </div>
             </div>
         </div>
+    </div>
+    <!-- End Main Content -->
 
-        <!-- End Main Content -->
-
-        <!-- Footer -->
+    <!-- Footer -->
+    <div class="container" style="padding: 0px;">
         <div class="footer-dark">
             <footer>
                 <div class="container">
@@ -210,8 +215,9 @@
                         Mitchell Quarrie &amp; Samuel Jackson</p>
                 </div>
             </footer>
-        </div> <!-- End Footer -->
-    </div><!-- End Content -->
+        </div>
+    </div> <!-- End Footer -->
+    <!-- End Content -->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>

@@ -6,7 +6,7 @@ body {
 }
 
 .content-container{
-    background-color: rgba(254, 254, 254, 0.4);
+    background-color: rgba(254, 254, 254, 0.7);
     color: black;
 }
 .content-card{
@@ -14,18 +14,15 @@ body {
     color: black;
     margin-top: 16px;
     margin-bottom: 16px;
+    text-align: center;
 }
 
-.heading-text{
+h1, h2, h3, h4, h5, h6 {
     color: #234C67;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}   
+}
 
-.paragraph-text{
-    color:black;
-    font-size: 14px;
+p { 
+    font-size: 14;
 }
 
 .col-text{
