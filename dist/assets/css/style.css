@@ -38,3 +38,7 @@ p {
 .embed-responsive::before{
     margin-top: -150px;
 }
+
+.card-body{
+    background-color: rgba(254, 254, 254, 0.4);
+}
