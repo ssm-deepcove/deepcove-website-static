@@ -38,3 +38,7 @@ p {
     content: "*";
     color:red;
 }
+
+.embed-responsive::before{
+    margin-top: -150px;
+}
